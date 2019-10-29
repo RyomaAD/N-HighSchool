@@ -34,6 +34,7 @@
     background-color:rgba(255,255,255,0.90);
     height:65px;
     width:100%;
+    z-index:50;
 }
 #sticky:after{
     content:"";
@@ -92,6 +93,7 @@
 /*ヘッダー上部*/
 #head-top-background{
     background-color:rgb(245, 244, 244);
+    z-index:1000;
 }
 #head-top{
     width:1040px;
@@ -162,6 +164,9 @@
     text-decoration-line:underline;
 }
 /*ヘッダー中層*/
+#head-middle{
+    z-index:1000;
+}
 #head-middle:after{
     content:"";
     display:block;
@@ -221,6 +226,9 @@
     padding:5px;
 }
 /*ヘッダー中層２*/
+#head-middle2{
+    z-index:1000;
+}
 #head-middle2:after{
     content:"";
     display:block;
@@ -376,6 +384,7 @@
 #articleHead img{
     width:100%;
     height:auto;
+    z-index:1;
 }
 /*パンくずナビ*/
 #articleHead ul{
